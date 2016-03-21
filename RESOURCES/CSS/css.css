@@ -1,4 +1,6 @@
 @font-face {
+    local('Comic Sans MS Bold'),
+	local('Comic-Sans-MS-Bold'),
     font-family: 'Comic Sans MS Bold';
     src: url('../../vendors/font/Comic Sans MS Bold.ttf') format('truetype');
 }
