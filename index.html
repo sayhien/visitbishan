@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="CHANGE-ME">
+    <meta name="description" content="CHANGE-ME">
+
+    <!-- Mobile Stuff 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-tap-highlight" content="no">-->
+
+    <title>Visit Bishan</title>
+
+    <link href="VENDORS/CSS/Grid.css" type="text/css" rel="stylesheet">
+    <link href="VENDORS/CSS/normalize.css" type="text/css" rel="stylesheet">
+    <link href="RESOURCES/CSS/css.css" type="text/css" rel="stylesheet">
+    <link href="VENDORS/CSS/animate.css" type="text/css" rel="stylesheet">
+    <!--<link href='css/media-queries.css' type="text/css" rel="stylesheet">-->
+</head>
+
+<body>
+
+
+
+
+
+    <header>
+        <!-- Insert your HTML here -->
+        <!--
+        <nav class='row text-align'>
+            <a href='#home'>home</a>
+            <a href='#park'>park</a>
+            <a href='#architecture'>architecture</a>
+            <a href='#nearby'>nearby</a>
+        </nav>-->
+
+
+
+        <section class='row '>
+
+            <div class='res-2'>
+                <div class='circle blue circle-text span-1-of-6 col wow bounceInDown' data-wow-delay='.5s'>i only visit my bed!</div>
+
+
+                <img src="RESOURCES/IMG/CAT.jpg" alt='grumpy-cat' class='cat-begin span-1-of-6 col wow bounceInDown' data-wow-delay='.5s' id='cursor-pointer' onclick="play1()">
+
+                <audio id="audio1" src="VENDORS/AUDIO/Lion1.mp3"></audio>
+            </div>
+
+
+            <div class='span-2-of-6 col wow bounceIn title' data-wow-delay='.5s'>
+                <h1>Visit Bishan</h1>
+                <h6>very popular town. much people visit!</h6>
+            </div>
+
+            <div class='res-2'>
+                <img src="RESOURCES/IMG/doge.jpg" alt='doge' class='span-1-of-6 col wow bounceInUp' data-wow-delay="1.5s" id='cursor-pointer' onclick="playdoge1()">
+
+                <audio id="audio-doge1" src="VENDORS/AUDIO/doge1.mp3"></audio>
+
+                <div class='circle red circle-text span-1-of-6 col wow bounceInUp' data-wow-delay="1.5s">amaze trip</div>
+            </div>
+        </section>
+
+    </header>
+
+
+    <!--bishan-->
+    <section class='row position-relative'>
+        <p id='curltext'>Welcome</p>
+
+        <div class='circle green circle-text span-1-of-6 col wow rotateIn'>get this over with!</div>
+
+        <img src="RESOURCES/IMG/grumpycat-left.jpg" alt='grumpy-cat' class='cat-begin span-1-of-6 col wow rotateIn' id='cursor-pointer' onclick="play2()">
+
+        <audio id="audio2" src="VENDORS/AUDIO/Lion2.mp3"></audio>
+
+        <img src="RESOURCES/IMG/bishan.png" alt='bishan' class='big span-2-of-6 col wow rotateIn' data-wow-duration='1.5s' data-wow-offset='150'>
+
+
+        <img src="RESOURCES/IMG/doge-sunglass.jpg" alt='doge sunglass' class='span-1-of-6 col wow rotateIn' id='cursor-pointer' onclick="playdoge2()" data-wow-offset='350'>
+
+        <audio id="audio-doge2" src="VENDORS/AUDIO/doge2.mp3"></audio>
+
+        <div class='circle yellow circle-text span-1-of-6 col wow rotateIn' data-wow-offset='350'>very niceee</div>
+
+    </section>
+    <!--shopping-->
+    <section class='row position-relative'>
+        <p id='curltext-j8'>Junction 8</p>
+        <div class='circle dark-green circle-text span-1-of-6 col  wow rollIn'>shop no sleep yes</div>
+
+        <img src="RESOURCES/IMG/grumpycat-right.jpg" alt='grumpy-cat' class='span-1-of-6 col  wow rollIn' id='cursor-pointer' onclick='play3()'>
+
+        <audio id='audio3' src='VENDORS/AUDIO/Lion3.mp3'></audio>
+
+        <img src="RESOURCES/IMG/j8.png" alt='bishan j8' class='span-2-of-6 col big wow rotateInUpRight' data-wow-offset='150'>
+
+        <img src="RESOURCES/IMG/doge-shop.jpg" alt='doge shop' class='span-1-of-6 col wow rotateInDownRight' data-wow-offset='350' id='cursor-pointer' onclick="playdoge3()">
+
+        <audio id="audio-doge3" src="VENDORS/AUDIO/doge3.mp3"></audio>
+
+        <div class='circle blue circle-text span-1-of-6 col wow rotateInDownRight' data-wow-offset='350'>wow much shopping</div>
+    </section>
+    <!--gym-->
+    <section class='row position-relative'>
+        <p id='curltext-gyms'>Gyms</p>
+        <div class='circle red circle-text span-1-of-6 col wow slideInLeft'>I exercise in my sleep</div>
+
+        <img src="RESOURCES/IMG/grumpycat-left.jpg" alt='grumpy-cat' class='span-1-of-6 col wow slideInLeft' onclick='playdoge4()' id='cursor-pointer'>
+
+        <audio id='audio-doge4' src='VENDORS/AUDIO/doge-snore.mp3'></audio>
+
+        <img src="RESOURCES/IMG/gym.png" alt='bishan gym' class='span-2-of-6 col big wow slideInUp' data-wow-offset='150'>
+
+        <img src="RESOURCES/IMG/doge-sleep.jpg" alt='doge sleep' class='span-1-of-6 col wow slideInRight' data-wow-offset='350' id='cursor-pointer' onclick="playdoge4()">
+
+        <audio id="audio-doge4" src="VENDORS/AUDIO/doge1.mp3"></audio>
+        <div class='circle green circle-text span-1-of-6 col wow slideInRight' data-wow-offset='350'>so strenous</div>
+    </section>
+
+    <!--library-->
+    <section class='row position-relative'>
+        <p id='curltext-library'>Library</p>
+        <div class='circle yellow circle-text span-1-of-6 col wow zoomInRight'>I shred books</div>
+
+        <img src="RESOURCES/IMG/grumpycat-right.jpg" alt='grumpy-cat' class='span-1-of-6 col wow zoomInRight' onclick='play5()' id='cursor-pointer'>
+        <audio id='audio5' src="VENDORS/AUDIO/Lion5.mp3"></audio>
+
+        <img src="RESOURCES/IMG/library.png" alt='bishan library' class='span-2-of-6 col big wow zoomInUp' data-wow-offset='150'>
+
+        <img src="RESOURCES/IMG/doge-nerd.jpg" alt='doge nerd' class='span-1-of-6 col wow zoomInLeft' data-wow-offset='350' id='cursor-pointer' onclick="playdoge5()">
+
+        <audio id="audio-doge5" src="VENDORS/AUDIO/doge-library.mp3"></audio>
+
+        <div class='circle dark-green circle-text span-1-of-6 col wow zoomInLeft' data-wow-offset='350'>wow books galore</div>
+    </section>
+
+
+    <!--park-->
+    <section class='row position-relative wow bounceInDown' data-wow-offset='100'>
+        <p id='curltext-park'>Bishan-AMK Park</p>
+        <div class='circle blue circle-text span-1-of-6 col wow pulse' data-wow-iteration='5' data-wow-duration='.5s'>parks make me weep</div>
+
+        <img src="RESOURCES/IMG/grumpycat-left.jpg" alt='grumpy-cat' class='span-1-of-6 col wow pulse' data-wow-iteration='5' data-wow-duration='.5s' id='cursor-pointer' onclick='play1()'>
+
+        <audio id='audio1' src="VENDORS/AUDIO/Lion1.mp3"></audio>
+
+        <img src="RESOURCES/IMG/park.png" alt='bishan park' class='span-2-of-6 col big wow pulse' data-wow-offset='150' data-wow-iteration='5' data-wow-duration='.5s'>
+
+        <img src="RESOURCES/IMG/doge-lion.jpg" alt='doge lion' class='span-1-of-6 col wow pulse' data-wow-offset='350' data-wow-iteration='5' data-wow-duration='.5s' id='cursor-pointer' onclick="playdoge6()">
+
+        <audio id="audio-doge6" src="VENDORS/AUDIO/doge3.mp3"></audio>
+
+        <div class='circle red circle-text span-1-of-6 col wow pulse' data-wow-offset='350' data-wow-iteration='5' data-wow-duration='.5s'>such coool</div>
+    </section>
+
+    <!--restaurant-->
+    <section class='row position-relative wow fadeInDown' data-wow-offset='100'>
+        <p id='curltext-restaurants'>Park Restaurants</p>
+        <div class='circle light circle-text span-1-of-6 col wow rubberBand' data-wow-iteration='5' data-wow-duration='.5s'>go ahead starve me</div>
+
+        <img src="RESOURCES/IMG/grumpycat-right.jpg" alt='grumpy-cat' class='span-1-of-6 col wow rubberBand' data-wow-iteration='5' data-wow-duration='.5s' id='cursor-pointer' onclick='play2()'>
+        <audio id='audio2' src="VENDORS/AUDIO/Lion2.mp3"></audio>
+
+        <img src="RESOURCES/IMG/restaurant.png" alt='bishan-restaurant' class='span-2-of-6 col big wow rubberBand' data-wow-offset='150' data-wow-iteration='5' data-wow-duration='.5s'>
+
+        <img src="RESOURCES/IMG/doge-hungry.jpg" alt='doge-hungry' class='span-1-of-6 col wow rubberBand' data-wow-offset='350' id='cursor-pointer' onclick="playdoge7()" data-wow-iteration='5' data-wow-duration='.5s'>
+
+        <audio id="audio-doge7" src="VENDORS/AUDIO/doge-eat1.mp3"></audio>
+        <div class='circle yellow circle-text span-1-of-6 col wow rubberBand' data-wow-offset='350' data-wow-iteration='5' data-wow-duration='.5s'>so delish</div>
+    </section>
+
+    <!--dog-->
+    <section class='row position-relative'>
+        <p id='curltext-dog'>Dog Park</p>
+        <div class='circle dark-green circle-text span-1-of-6 col wow bounceInLeft'>I'd drop a bomb here</div>
+
+        <img src="RESOURCES/IMG/grumpycat-left.jpg" alt='grumpy-cat' class='span-1-of-6 col wow bounceInLeft' id='cursor-pointer' onclick='play3()'>
+
+        <audio id='audio3' src="VENDORS/AUDIO/Lion3.mp3"></audio>
+
+        <img src="RESOURCES/IMG/dog-park.png" alt='bishan-dog-park' class='span-2-of-6 col big wow bounceInDown' data-wow-offset='150'>
+
+        <img src="RESOURCES/IMG/doge-friend.jpg" alt='grumpy-cat' class='span-1-of-6 col wow bounceInRight' data-wow-offset='350' id='cursor-pointer' onclick="playdoge8()">
+
+        <audio id="audio-doge8" src="VENDORS/AUDIO/doge1.mp3"></audio>
+        <div class='circle blue circle-text span-1-of-6 col wow bounceInRight' data-wow-offset='350'>much buddies!</div>
+    </section>
+
+    <!--yoga-->
+    <section class='row position-relative'>
+        <p id='curltext-activities'>Park Activities</p>
+        <div class='circle red circle-text span-1-of-6 col wow flipInX'>&nbsp;&nbsp;&nbsp;fun?&nbsp;&nbsp;&nbsp; fuck it</div>
+
+        <img src="RESOURCES/IMG/grumpycat-right.jpg" alt='grumpy cat' class='span-1-of-6 col wow flipInX' id='cursor-pointer' onclick='play4()'>
+        <audio id='audio4' src="VENDORS/AUDIO/Lion4.mp3"></audio>
+
+        <img src="RESOURCES/IMG/yoga.png" alt='bishan yoga' class='span-2-of-6 col big flip wow' data-wow-offset='150'>
+        <img src="RESOURCES/IMG/doge-fun.jpg" alt='doge fun' class='span-1-of-6 col wow flipInY' data-wow-offset='350' id='cursor-pointer' onclick="playdoge9()">
+
+        <audio id="audio-doge9" src="VENDORS/AUDIO/doge2.mp3"></audio>
+        <div class='circle green circle-text span-1-of-6 col wow flipInY' data-wow-offset='350'>many fun timeys</div>
+    </section>
+
+    <!--heritage-->
+    <section class='row position-relative'>
+        <p id='curltext-heritage'>Heritage</p>
+        <div class='circle blue circle-text span-1-of-6 col wow rotateInUpLeft'>heritage is for pussies</div>
+
+        <img src="RESOURCES/IMG/grumpycat-left.jpg" alt='grumpy-cat' class='span-1-of-6 col wow rotateInUpLeft' id='cursor-pointer' onclick='play5()'>
+        <audio id='audio5' src="VENDORS/AUDIO/Lion5.mp3"></audio>
+
+        <img src="RESOURCES/IMG/heritage.png" alt='bishan heritage' class='span-2-of-6 col big wow rotateIn' data-wow-offset='150'>
+
+        <img src="RESOURCES/IMG/doge-heritage.jpg" alt='doge heritage' class='span-1-of-6 col wow rotateInUpRight' data-wow-offset='350' id='cursor-pointer' onclick="playdoge10()">
+
+        <audio id="audio-doge10" src="VENDORS/AUDIO/doge-heritage.mp3"></audio>
+        <div class='circle yellow circle-text span-1-of-6 col wow rotateInUpRight' data-wow-offset='350'>bon heritage</div>
+    </section>
+
+    <!--central catchment-->
+    <section class='row position-relative'>
+        <p id='curltext-catchment'>Central Catchment</p>
+        <div class='circle dark-green circle-text span-1-of-6 col wow swing'>thanks indons not!</div>
+
+        <img src="RESOURCES/IMG/grumpycat-right.jpg" alt='grumpy-cat' class='span-1-of-6 col wow swing' id='cursor-pointer' onclick='play1()'>
+        <audio id='audio1' src="VENDORS/AUDIO/Lion1.mp3"></audio>
+
+        <img src="RESOURCES/IMG/forest.png" alt='central catchment forest' class='span-2-of-6 col big wow shake' data-wow-offset='150'>
+
+        <img src="RESOURCES/IMG/doge-forest.jpg" alt='doge forest' class='span-1-of-6 col wow swing' data-wow-offset='350' id='cursor-pointer' onclick="playdoge11()">
+
+        <audio id="audio-doge11" src="VENDORS/AUDIO/doge3.mp3"></audio>
+        <div class='circle light circle-text span-1-of-6 col wow swing' data-wow-offset='350'>so fresh air thanks indons</div>
+    </section>
+
+    <!--upp thomson-->
+    <section class='row position-relative'>
+        <p id='curltext-uppthomson'>Upper Thomson</p>
+        <div class='circle green circle-text span-1-of-6 col wow bounceInLeft'>so he gets to eat?</div>
+
+        <img src="RESOURCES/IMG/grumpycat-left.jpg" alt='grumpy-cat' class='span-1-of-6 col wow bounceInLeft' id='cursor-pointer' onclick='play2()'>
+        <audio id='audio2' src="VENDORS/AUDIO/Lion2.mp3"></audio>
+
+        <img src="RESOURCES/IMG/upp-thom.png" alt='upp thomson' class='span-2-of-6 col big wow bounceInDown' data-wow-offset='150'>
+        <img src="RESOURCES/IMG/doge-icecream.jpg" alt='doge ice-cream' class='span-1-of-6 col wow bounceInRight' data-wow-offset='350' id='cursor-pointer' onclick="playdoge12()">
+
+        <audio id="audio-doge12" src="VENDORS/AUDIO/doge-lick.mp3"></audio>
+        <div class='circle red circle-text span-1-of-6 col wow bounceInRight' data-wow-offset='350'>nom nom nom</div>
+    </section>
+
+    <!--temple-->
+    <section class='row position-relative wow flip' data-wow-offset='100'>
+        <p id='curltext-temple'>Kwong Ming Shan Temple</p>
+        <div class='circle yellow circle-text span-1-of-6 col'>smoke gets in my eyes</div>
+
+        <img src="RESOURCES/IMG/grumpycat-right.jpg" alt='grumpy-cat' class='span-1-of-6 col' id='cursor-pointer' onclick='play3()'>
+        <audio id='audio3' src="VENDORS/AUDIO/Lion3.mp3"></audio>
+
+        <img src="RESOURCES/IMG/temple.png" alt='kwong ming shan' class='span-2-of-6 col big' data-wow-offset='150'>
+        <img src="RESOURCES/IMG/doge-buddhism.jpg" alt='doge buddhism' class='span-1-of-6 col' id='cursor-pointer' onclick="playdoge13()" data-wow-offset='350'>
+
+        <audio id="audio-doge13" src="VENDORS/AUDIO/doge-temple.mp3"></audio>
+        <div class='circle blue circle-text span-1-of-6 col' data-wow-offset='350'>bow wow buddhism</div>
+    </section>
+
+    <!--trip over-->
+    <section class='row'>
+
+        <div class='span-1-of-2 col buy-cat wow rotateInDownLeft'>
+
+
+            <img src="RESOURCES/IMG/grumpycat-smile.jpg" alt='grumpy-cat' id='cursor-pointer' onclick='play14()'>
+
+            <audio id='audio14' src="VENDORS/AUDIO/cat1.mp3"></audio>
+
+            <div class='circle yellow circle-text wow wobble ' data-wow-delay='1s'>
+                <a href='#' class='circle-text'>feed me human</a>
+            </div>
+
+
+        </div>
+
+        <div class='span-1-of-2 col buy-dog wow rotateInDownRight'>
+
+            <img src="RESOURCES/IMG/doge-happy.jpg" alt='doge happy' style='width:165px; height:auto;' onclick='playdoge14()' id='cursor-pointer'>
+
+            <audio id='audio-doge14' src="VENDORS/AUDIO/doge1.mp3"></audio>
+
+            <div class='circle blue  wow wobble' data-wow-delay='1.5s'>
+                <a href='#' class='circle-text'>much halp</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!--row-->
+
+    <!--like-->
+    <div class='row'>
+        <div class="fb-like wow shake" data-wow-delay='1s' data-share="true" data-width="450" data-show-faces="true">
+        </div>
+    </div>
+
+    <!--comment-->
+    <div class='row'>
+        <div class="fb-comments" data-href="http://www.glaciermine.com/visitbishan/" data-numposts="15"></div>
+    </div>
+
+
+    <!-- Scripts -->
+
+    <script src="VENDORS/JS/jquery-2.2.1.js"></script>
+
+    <script src="RESOURCES/JS/bishanweb.js"></script>
+
+    <script src="VENDORS/JS/circletype.min.js"></script>
+
+    <script src="VENDORS/JS/plugins.js"></script>
+
+    <script src="RESOURCES/JS/wow.min.js"></script>
+
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset: 250, // default
+            mobile: true, // default
+            live: true // default
+        })
+        wow.init();
+    </script>
+
+    <!--facebook sdk -->
+
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '695094553964220',
+                xfbml: true,
+                version: 'v2.5'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!--like sdk -->
+
+    <!--comment sdk -->
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=695094553964220";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!--comment sdk -->
+
+
+</body>
+
+</html>

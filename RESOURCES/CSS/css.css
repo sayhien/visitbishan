@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Comic Sans MS Bold';
+    src: url('../../vendors/font/Comic Sans MS Bold.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Comic Sans MS Bold', arial, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    background-color: #fff;
+    overflow-x: hidden;
+    color: #192823;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 80px auto;
+    padding: 1%;
+}
+
+div.span-2-of-6.col.title {
+    margin: 0 -60px 0 0;
+}
+
+.position-relative {
+    position: relative
+}
+
+h1 {
+    color: #ebb035;
+    margin: .67em 0 0 0;
+}
+
+h6 {
+    color: #218559;
+}
+
+img {
+    max-width: 165px;
+    max-height: auto;
+}
+
+.circle-text {
+    color: #fff;
+    letter-spacing: .8px;
+}
+
+.circle-text a {
+    text-decoration: none;
+}
+
+a.circle-text {
+    text-decoration: none;
+}
+
+a.circle-text:hover {
+    border-bottom: 3px solid white;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    padding: 50px 5px 0 5px;
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+}
+
+.big {
+    max-width: 250px;
+    max-height: auto;
+    margin-top: -35px;
+}
+
+.yellow {
+    background-color: #ebb035;
+}
+
+.green {
+    background-color: #218559;
+}
+
+.dark-green {
+    background-color: #192823;
+}
+
+.blue {
+    background-color: #06a2cb;
+}
+
+.red {
+    background-color: #dd1e2f;
+}
+
+.light {
+    background-color: #d0c6b1;
+}
+
+.first-row-margin {
+    margin-left: 11%;
+}
+
+#cursor-pointer {
+    cursor: pointer;
+}
+
+.buy-dog {
+    padding: 0 30% 0 0;
+}
+
+#curltext,
+#curltext-j8,
+#curltext-gyms,
+#curltext-library,
+#curltext-dog,
+#curltext-heritage {
+    position: absolute;
+    top: -30px;
+    left: -13px
+}
+
+#curltext-activities,
+#curltext-catchment,
+#curltext-uppthomson,
+#curltext-temple,
+#curltext-park,
+#curltext-restaurants {
+    position: absolute;
+    top: 5px;
+    left: -13px
+}
+
+#curltext-uppthomson {
+    top: -12px;
+}
+
+#curltext-temple {
+    top: 30px;
+}
+
+.buy-cat {
+    padding: 0 0 0 28%;
+}
+
+.buy-cat img,
+.buy-dog img {
+    margin-bottom: 30px;
+}
+
+.fb-like {
+    padding: 0 0 0 35%;
+}
+
+.fb-comments {
+    padding: 0 0 0 25%;
+}
