@@ -1,9 +1,11 @@
 @font-face {
-    local('Comic Sans MS Bold'),
-	local('Comic-Sans-MS-Bold'),
     font-family: 'Comic Sans MS Bold';
-    src: url('../../vendors/font/Comic Sans MS Bold.ttf') format('truetype');
+    src: url('../../vendors/font/Comic Sans MS Bold.eot');
+    src: local('☺'), url('../../vendors/font/Comic Sans MS Bold.woff') format('woff'), url('../../vendors/font/Comic Sans MS Bold.ttf') format('truetype'), url('../../vendors/font/Comic Sans MS Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 * {
     margin: 0;
