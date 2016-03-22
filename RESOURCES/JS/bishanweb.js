@@ -189,7 +189,7 @@ jQuery(function ($) {
 
 jQuery(function ($) {
         $('#curltext-temple').circleType({
-            radius: 174
+            radius: 184
         });
     })
     /*
