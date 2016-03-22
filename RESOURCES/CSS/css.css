@@ -1,11 +1,10 @@
-@font-face {
+/*@font-face {
     font-family: 'Conv_Comic Sans MS Bold';
     src: url('../../vendors/font/Comic Sans MS Bold.eot');
     src: local('☺'), url('../../vendors/font/Comic Sans MS Bold.woff') format('woff'), url('../../vendors/font/Comic Sans MS Bold.ttf') format('truetype'), url('../../vendors/font/Comic Sans MS Bold.svg') format('svg');
     font-weight: normal;
     font-style: normal;
-}
-
+}*/
 
 * {
     margin: 0;
@@ -14,8 +13,8 @@
 }
 
 html {
-    font-family: 'Comic Sans MS Bold', arial, sans-serif;
-    font-size: 25px;
+    font-family: "Dekko", arial, sans-serif;
+    font-size: 27px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
     background-color: #fff;
@@ -31,6 +30,7 @@ html {
 
 div.span-2-of-6.col.title {
     margin: 0 -60px 0 0;
+    padding: 0 0 0 25px;
 }
 
 .position-relative {
@@ -52,19 +52,21 @@ img {
 }
 
 .circle-text {
+    padding: 50px 15px;
+    line-height: 35px;
+}
+
+a.aff,
+.circle-text {
     color: #fff;
     letter-spacing: .8px;
 }
 
-.circle-text a {
+a.aff {
     text-decoration: none;
 }
 
-a.circle-text {
-    text-decoration: none;
-}
-
-a.circle-text:hover {
+a.aff:hover {
     border-bottom: 3px solid white;
 }
 
@@ -72,7 +74,6 @@ a.circle-text:hover {
     border-radius: 50%;
     width: 165px;
     height: 165px;
-    padding: 50px 5px 0 5px;
     text-align: center;
 }
 
@@ -140,7 +141,7 @@ a.circle-text:hover {
 #curltext-park,
 #curltext-restaurants {
     position: absolute;
-    top: 5px;
+    top: 0px;
     left: -13px
 }
 
@@ -149,7 +150,7 @@ a.circle-text:hover {
 }
 
 #curltext-temple {
-    top: 30px;
+    top: 40px;
 }
 
 .buy-cat {
